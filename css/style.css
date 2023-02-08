@@ -1,0 +1,46 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 2px gray;
+    z-index: 3;
+}
+.header img{
+    width: 200px;
+}
+
+.menu{
+    background-color: rgb(3, 145, 150);
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    top: 80px;
+    z-index: 1;
+}
+
+.section{
+    background-color: rgba(137, 43, 226, 0);
+    position: relative;
+    min-height: 600px;
+    top:85px;
+    padding-left: 305px !important;
+    z-index: 0;
+    padding: 10px;
+}
+
+.footer{
+    background-color: rgb(158, 0, 0);
+    height: 100px;
+    width: 100%;
+    right: 0;
+    position:relative;
+    bottom: 0;
+}
