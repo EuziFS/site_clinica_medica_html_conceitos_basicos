@@ -1,29 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Horários da Clínica</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/horario_style.css">
+    <script src="https://kit.fontawesome.com/3558ee3b82.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <div class="header">
-        <img src="../image/logo3.png" alt="Imagem demonstrativa da logo do site">
+        <h4>HORÁRIOS DE ATENDIMENTO</h4>
+        <img src="../image/atendimento.png" alt="Imagem demonstrativa da logo do site">
+
     </div>
     <div class="menu">
         <ul>
-            <li><a href="../index.html">INICIO</a></li>
-            <li><a href="../page/sobre.html">SOBRE</a></li>
-            <li><a href="../page/horario.html">HORÁRIOS</a></li>
-            <li><a href="../page/contato.html">CONTATO</a></li>
+            <a href="../index.html">
+                <li>
+                    <i class="fa fa-home"></i>
+                    INICIO
+                </li>
+            </a>
+            <a href="../page/sobre.html">
+                <li>
+                    <i class="fa-solid fa-people-group"></i>
+                    SOBRE
+
+                </li>
+            </a>
+            <a href="../page/horario.html">
+                <li>
+                    <i class="fa-regular fa-clock"></i>
+                    HORÁRIOS
+                </li>
+            </a>
+            <a href="../page/contato.html">
+                <li>
+                    <i class="fa-regular fa-envelope"></i>
+                    CONTATO
+                </li>
+            </a>
         </ul>
     </div>
     <div class="section">
-        CONTEÚDO DO MEU SITE - HORÁRIOS
+        <table summary="Esta tabela informa os horários de atendimento desta clínica médica" class="table"
+            cellpadding="10" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>SERVIÇOS</th>
+                    <th>SEGUNDA A SEXTA</th>
+                    <th>SÁBADO</th>
+                    <th>FERIADOS</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Clínica Geral</td>
+                    <td>08h - 19h</td>
+                    <td>08h - 14h</td>
+                    <td>08h - 14h</td>
+                </tr>
+                <tr>
+                    <td>Pisicologia</td>
+                    <td>08h - 19h</td>
+                    <td>08h - 14h</td>
+                    <td>08h - 14h</td>
+                </tr>
+                <tr>
+                    <td>Pediatria</td>
+                    <td>08h - 19h</td>
+                    <td>08h - 18h</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Oftalmologia</td>
+                    <td>08h - 19h</td>
+                    <td>08h - 18h</td>
+                    <td>-</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="5"> ATENDIMENTO ONLINE 24 HORAS </td>
+                </tr>
+            </tfoot>
+        </table>
+        <div class="logo">
+            <img src="../image/logo3.png" alt="Imagem demonstrativa da logo do site">
+        </div>
     </div>
     <div class="footer">
-
+        <div class="copy">
+            &copy Copyright Clínica Saúde e Vida
+        </div>
     </div>
 </body>
+
 </html>

@@ -1,0 +1,36 @@
+.header img{
+    width: 80px !important;
+    
+}
+.table thead tr th{
+    background-color: black;
+    color:white;
+}
+
+.table tbody tr:nth-child(even) td{
+    background-color: rgb(236, 236, 236);
+}
+
+.table tbody tr:hover td{
+    background-color: lightgray !important;
+    cursor: pointer;
+}
+
+.table tfoot tr td {
+    background-color: rgb(160, 160, 160);
+    color: white;
+    text-align: center;
+}
+
+.section .table{
+    box-shadow: 1px 1px 5px lightgray;
+    width: 100%;
+    text-align: center;
+}
+
+.section .logo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
