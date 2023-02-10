@@ -1,0 +1,111 @@
+
+/* MENÚ BARRA */
+
+.header img {
+    width: 150px !important;
+}
+
+/* DIV LEFT */
+
+.section .left {   
+    float:left;
+    width: 49%;
+    border-right: 1px solid lightgray;
+}
+
+.section .left .detals {
+    width: 100%;
+    padding-left: 20px;
+}
+
+.section .left .detals h5 {
+    justify-content: start;
+    display: flex;
+    align-items: center;
+}
+
+.section .left .detals h5 i {
+    font-size: 20px;
+    margin-right: 10px;
+    justify-content: start;
+    display: flex;
+    align-items: center;
+}
+
+/* IFRAME */
+.section .left .iframe {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.section .left {
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* DIV RIGHT */
+
+.section .right {
+    float:right;
+    width: 49%;
+    margin-right: 5px;
+}
+
+/* LABEL */
+.section .right div label {
+    display: flex;
+    width: 100px;
+    text-align: right;
+    padding-right: 5px;
+}
+
+.section .right div {
+    width: 100%;
+    margin-top:10px;
+}
+
+/* IMPUT */
+.section .right div input {
+    width: 100%;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* TEXTAREA */
+.section .right div textarea {
+    width: 100% !important;
+    height: 100% !important;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* BUTTOMs */
+.section .right .buttom {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 100%;
+    padding-top:10px;
+    padding-bottom: 10px;
+    background-color:lightgray;
+}
+
+.section .right .buttom button {
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    padding:5px;
+    color:white;
+    cursor: pointer;
+}
+
+.section .right .buttom .reset {
+    background-color: brown;
+}
+
+.section .right .buttom .submit {
+    background-color: green;
+}

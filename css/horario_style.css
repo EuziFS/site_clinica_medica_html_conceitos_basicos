@@ -1,7 +1,12 @@
+/* Menu Barra */
+
 .header img{
     width: 80px !important;
     
 }
+
+/* Tabela de horários */
+
 .table thead tr th{
     background-color: black;
     color:white;
@@ -27,6 +32,8 @@
     width: 100%;
     text-align: center;
 }
+
+/* Logo no conteúdo do site */
 
 .section .logo {
     width: 100%;
