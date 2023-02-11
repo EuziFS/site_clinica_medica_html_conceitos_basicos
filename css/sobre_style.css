@@ -1,7 +1,12 @@
+/* MENU BARRA */
+
 .header img {
     width: 80px !important;
 }
 
+/* CONTEÚDO DA PAGINA */
+
+/* IMAGENS */
 .section .pessoal {
     display: flex;
     justify-content: center;
@@ -30,6 +35,8 @@
 .section .tipo_exame div div img {
     width: 100%;;
 }
+
+/* TEXTO DA PAGINA */
 
 .section .desc {
     text-align: justify;
