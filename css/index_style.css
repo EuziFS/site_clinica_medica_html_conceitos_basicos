@@ -1,0 +1,27 @@
+/* banner de fundo */
+
+.section .banner img {
+    width: 100% !important;
+}
+
+/* Fundo do conteúdo */
+.section {
+    background-color: rgba(6, 98, 105, 0.137);
+    top:80px;
+}
+
+/* Campo de descrição, um texto na imagem */
+.section .desc {
+    
+    position: absolute;
+    z-index: 0;
+    top: 200px;
+    width: 300px;
+    margin-left: 20px;
+    text-align: justify;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 20px 0px 20px 0px;
+    background-color: rgba(4, 123, 139, 0.562);
+    color: rgb(0, 54, 58);
+}
