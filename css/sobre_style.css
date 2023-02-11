@@ -1,0 +1,37 @@
+.header img {
+    width: 80px !important;
+}
+
+.section .pessoal {
+    display: flex;
+    justify-content: center;
+}
+
+.section .tipo_exame {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    text-align: center;
+}
+
+.section .tipo_exame div div{
+    margin-right: 60px;
+    margin-left: 60px;
+    border-radius: 100%;
+    overflow: hidden;
+    height: 100px;
+    width:100px;
+    background: black;
+    padding: 20px;
+    background-color: lightblue;
+    border: 1px solid rgb(0, 163, 155);
+}
+
+.section .tipo_exame div div img {
+    width: 100%;;
+}
+
+.section .desc {
+    text-align: justify;
+    padding: 10px;
+}

@@ -69,11 +69,12 @@ body{
 .section{
     background-color: rgba(137, 43, 226, 0);
     position: relative;
-    min-height: 600px;
+    min-height: 500px;
     top:85px;
     padding-left: 305px !important;
     z-index: 0;
     padding: 10px;
+    padding-bottom:100px;
 }
 
 /* menú de informações embaixo na tela - Rodapé */
@@ -82,6 +83,7 @@ body{
     padding-left: 305px !important;
     height: 100px;
     right: 0;
+    
     position:relative;
     bottom: 0;
 }
